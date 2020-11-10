@@ -1,0 +1,123 @@
+td {
+    border: 2px solid #333;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Comic Sans MS", cursive;
+    font-size: 70px;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    position: absolute;
+    left: 50%;
+    margin-top: 20px;
+    margin-left: -155px;
+    top: 50px;
+}
+
+.endgame {
+    display: none;
+    width: 200px;
+    top: 120px;
+    background-color: rgba(205,133,63,0.8);
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-size: 2em;
+    
+}
+
+#popup_bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 7);
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#popup_main{
+    position: fixed;
+    width: 800px;
+    height: 600px;
+    border: 5px solid #800000;
+    border-radius: 15px;
+    background-color: white;
+    left: 50%;
+    margin-left: -400px;
+    top: 50%;
+    margin-top: -300px;
+}
+
+#close_popup{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    border: 2px solid #800000;
+    text-align: center;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+
+#close_popup p{
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#javascript_magic{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    background-color: #800000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    border: 3px solid black;
+}
+
+#javascript_desc{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+h1{
+    text-align: center;
+}
+
+.button {
+    padding: 15px 25px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    position: relative;
+    bottom: 100;
+    right: 100;
+}
+  
+.button:hover {background-color: #800000}
+  
+.button:active {
+    background-color: #800000;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}

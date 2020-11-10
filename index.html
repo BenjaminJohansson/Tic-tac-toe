@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Tic Tac Toe</h1>
+
+
+    <table> <!-- Gör spelplanen och definerar cellerna till ett id-->
+        <tr>
+            <td class="cell" id="0"></td>
+            <td class="cell" id="1"></td>
+            <td class="cell" id="2"></td>
+        </tr>
+        <tr>
+            <td class="cell" id="3"></td>
+            <td class="cell" id="4"></td>
+            <td class="cell" id="5"></td>
+        </tr>
+        <tr>
+            <td class="cell" id="6"></td>
+            <td class="cell" id="7"></td>
+            <td class="cell" id="8"></td>
+        </tr>
+    </table>
+
+  
+
+
+    <button class="button" onclick="openPopUpMenu()"> <!--Öppnar menyn med en knapp-->
+      Menu!
+    </button>
+
+    <div id="popup_bg">
+      <div id="popup_main">
+        <p id="javascript_magic">
+          Menu
+        </p>
+        <p id="javascript_desc">
+          HÄR SKA MENYN VARA
+        </p>
+        <div id="close_popup" title="Stäng" onclick="closePopUpMenu()">
+          <p>
+            X
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="endgame">
+        <div class="text"></div>
+    </div>
+    <button class="button" onClick="startGame()">Restart</button> <!--Startar om spelet-->
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!--https://youtu.be/P2TcQ3h0ipQ?t=988
+  <!-- https://youtu.be/7dq_hDsHbkM?t=605
